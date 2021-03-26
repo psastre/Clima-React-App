@@ -32,7 +32,7 @@ function App() {
           <input onChange={weatherInput} type="text"/>
           <button onClick={searchWeather}>Buscar</button>
         <div>
-        <h1>{weather.location.name}</h1>
+        <h1>holaa{weather.location.name}</h1>
         <h2>{weather.location.region}</h2>
         <h3>{weather.current.temp_c}`</h3>
         <h3>{weather.current.humidity} humedad</h3>
